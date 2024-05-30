@@ -36,11 +36,10 @@
             {{-- container --}}
             <div class="container">
 
-                <h1 class="display-4">Library Management System</h1>
-                <p class="lead">quem quae amet export nulla eram anim malis export aliqua labore duis velit nisi
-                    elit quid illum quem fore velit dolor malis sint eram nisi</p>
+                <h1 class="display-4">Gestionnaire De Bibliotheque</h1>
+                <p class="lead">Ici trouvez les livres de tout genre : Roman litteraire, Roman Scientifique,etc</p>
                 <hr class="my-4">
-                <p>elit eram quid summis malis illum aute amet ipsum aliqua</p>
+                <p>Visitez notre site et voir les tendances actuelles</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 
             </div>

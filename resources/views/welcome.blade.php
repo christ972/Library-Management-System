@@ -2,7 +2,7 @@
 
 @section('title-page')
     
-    Library Management System
+    Gestion de Bibliotheque
 
 @endsection
 
@@ -14,7 +14,7 @@
         {{-- card-header --}}
         <div class="card-header">
 
-            Welcomte to Library Management System
+            Bienvenue a la plus grande bliotheque numerique
 
         </div>
         {{-- /card-header --}}
@@ -25,7 +25,7 @@
             {{-- card-title --}}
             <h5 class="card-title">
 
-                Special title treatment
+            ---Jules Renard---
 
             </h5>
             {{-- /card-title --}}
@@ -33,12 +33,11 @@
             {{-- card-text --}}
             <p class="card-text">
 
-                elit aute dolor sunt quis duis enim esse quae anim quem dolor duis cillum summis legam irure export irure dolor quae summis multos magna quorum
-
+            Certains livres sont des cimetières où repose la fine fleur des maitres à pensées
             </p>
             {{-- /card-text --}}
 
-            <a href="#" class="btn btn-primary">Read More</a>
+            <a href="#" class="btn btn-primary">Voir Plus</a>
 
         </div>
         {{-- /card-body --}}
@@ -50,12 +49,11 @@
 
 @section('title-about-us')
 
-    About Us
+    A propos
     
 @endsection
 
 @section('content-about-us')
-
-    minim sint quae velit dolor esse malis dolore elit veniam tempor minim dolore fugiat tempor magna irure aliqua aute aute
-    
+Restez a l' affût de nouvelles ouvrages
+Nous renouvellons chqaue mois notre Stock de livre     
 @endsection

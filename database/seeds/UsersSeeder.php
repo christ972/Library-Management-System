@@ -1,5 +1,5 @@
 <?php
-
+namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\User;
 
@@ -13,9 +13,9 @@ class UsersSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name'      => 'Jhon Doe',
-            'email'     => 'jhon@mail.com',
-            'password'  => Hash::make('password'),
+            'name'      => 'christ',
+            'email'     => 'christbest682@gmail.com',
+            'password'  => Hash::make('christ'),
         ]);
     }
 }

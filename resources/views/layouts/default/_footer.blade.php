@@ -21,7 +21,7 @@
 
                 <div class="col-sm-12 col-md-4 col-lg-4">
 
-                    <h6>Quick Links</h6>
+                    <h6>Liens vers nos Resaux</h6>
 
                     <hr>
 
@@ -31,11 +31,11 @@
 
                 <div class="col-sm-12 col-md-4 col-lg-4">
 
-                    <h6>Join Our Newsletter!</h6>
+                    <h6>Rejoignez-nous </h6>
 
                     <hr>
 
-                    <p>anim nisi magna noster tamen legam tempor esse fugiat nisi</p>
+                    <p>Restez au courant des nouveaux livres sortants</p>
 
                     <form action="#">
 
@@ -44,11 +44,11 @@
 
                             <form action="#" method="post">
 
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrer votre email">
 
                                 <br>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Envoyer</button>
 
                             </form>
 

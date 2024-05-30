@@ -4,7 +4,7 @@
         {{-- container --}}
         <div class="container">
 
-            <a href="#" class="navbar-brand">Library Management System</a>
+            <a href="#" class="navbar-brand">Bibliotheque</a>
 
             {{-- nav --}}
             <ul class="nav nav-pills">

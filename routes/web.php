@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\RegisterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register']);
 Route::get('/', function () {
     return view('welcome');
 });
@@ -26,7 +27,8 @@ Route::middleware(['guest'])->group(function () {
 });
 
 // group auth
-Route::middleware(['auth'])->group(function () {
+Route::middleware(['auth'])->group(function () { 
+
 
     // route logout
     Route::get('/logout', 'AuthController@doLogout')->name('logout');

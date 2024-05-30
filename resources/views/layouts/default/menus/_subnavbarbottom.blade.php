@@ -14,9 +14,9 @@
 
                     <small style="color:white;">
 
-                        <i class="fas fa-phone"></i> 156-202-3929 |
-                        <i class="fas fa-envelope"></i> pejuangcoder@email.com |
-                        <i class="fas fa-map-marker-alt"></i> 90553 Corrine Common |
+                        <i class="fas fa-phone"></i> +228 97-28-29-00 |
+                        <i class="fas fa-envelope"></i> christdev9@gmail.com |
+                        <i class="fas fa-map-marker-alt"></i> Lome,Togo |
                         <a href="#"><i class="fab fa-youtube" style="color:white"></i></a>
                         <a href="#"><i class="fab fa-twitter" style="color:white"></i></a>
                         <a href="#"><i class="fab fa-facebook" style="color:white"></i></a>
@@ -33,8 +33,8 @@
 
         <small style="color:white;">
 
-            Made with <i class="fas fa-heart fa-sm"></i> by Pejuang Coder
-        
+            <i>&copy; 2024 copyright 
+            </i>        
         </small>
 
     </div>

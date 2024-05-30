@@ -6,7 +6,7 @@
 
     </button>
     
-    <a class="navbar-brand mr-1" href="{{ route('dashboard') }}">Admin</a>
+    <a class="navbar-brand mr-1" href="{{ route('dashboard') }}">Administration</a>
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -23,11 +23,11 @@
             {{-- dropdown-menu --}}
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
 
-                <a href="#" class="dropdown-item disabled">Hello, {{ Auth::user()->name ?? '' }}</a>
+                <a href="#" class="dropdown-item disabled">Bienvenue, {{ Auth::user()->name ?? '' }}</a>
 
                 <div class="dropdown-divider"></div>
 
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Se Deconnecter</a>
 
             </div>
             {{-- /dropdown-menu --}}
@@ -52,7 +52,7 @@
             {{-- modal-header --}}
             <div class="modal-header">
 
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Voulez Vous Quittez?</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
 
                     <span aria-hidden="true">×</span>
@@ -65,7 +65,7 @@
             {{-- modal-body --}}
             <div class="modal-body">
 
-                Select "Logout" below if you are ready to end your current session.
+                Selectionnez "Se Deconnectez" pour Fermer la session
 
             </div>
             {{-- /modal-body --}}
@@ -73,8 +73,8 @@
             {{-- modal-footer --}}
             <div class="modal-footer">
 
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="{{ route('logout') }}">Logout</a>
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Annuler</button>
+                <a class="btn btn-primary" href="{{ route('logout') }}">Se Deconnecter</a>
 
             </div>
             {{-- /modal-footer --}}

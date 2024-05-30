@@ -12,13 +12,13 @@
 
                 <li class="nav-item" style="margin-right: 5px;">
 
-                    <a href="#" class="btn btn-primary btn-sm">login</a>
+                    <a href="#" class="btn btn-primary btn-sm">Se Connecter</a>
 
                 </li>
 
                 <li class="nav-item">
 
-                    <a href="#" class="btn btn-secondary btn-sm">Register</a>
+                    <a href="#" class="btn btn-secondary btn-sm">S'inscrire</a>
 
                 </li>
 

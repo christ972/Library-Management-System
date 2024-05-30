@@ -7,8 +7,7 @@
             {{-- copyright --}}
             <div class="copyright text-center my-auto">
 
-                <span>Made with <i class="fas fa-heart fa-sm"></i> by Pejuang Coder</span>
-
+                <i>&copy; 2024 copyright</i>
             </div>
             {{-- /copyright --}}
 

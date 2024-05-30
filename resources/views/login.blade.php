@@ -33,7 +33,7 @@
             {{-- card-header --}}
             <div class="card-header">
 
-                Login
+                Connexion
 
             </div>
             {{-- /card-header --}}
@@ -50,7 +50,7 @@
 
                         <div class="form-label-group">
                         <input name="email" type="email" id="inputEmail" class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}" placeholder="Email address" required="required" autofocus="autofocus" value="{{ old('email') }}">
-                        <label for="inputEmail">Email address</label>
+                        <label for="inputEmail">Adresse email</label>
 
                         {{-- errors email --}}
                         @if ($errors->has('email'))
@@ -73,7 +73,7 @@
                         <div class="form-label-group">
 
                             <input name="password" type="password" id="inputPassword" class="form-control {{ $errors->has('password') ? 'is-invalid' : '' }}" placeholder="Password" required="required">
-                            <label for="inputPassword">Password</label>
+                            <label for="inputPassword">Mot de passe</label>
 
                             {{-- errors password --}}
                             @if ($errors->has('password'))

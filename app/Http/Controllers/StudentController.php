@@ -149,7 +149,7 @@ class StudentController extends Controller
 
         $student->delete();
 
-        return redirect()->back()->with('danger', 'Student has been deleted.');
+        return redirect()->back()->with('danger', "L'etudiant a ete supprimer.");
 
     }
 }
